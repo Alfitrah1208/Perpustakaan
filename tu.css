@@ -1,0 +1,145 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+
+}
+
+header {background-color: rgb(0, 238, 255) ;
+    padding: 30px 30px 30px 30px;
+    text-align: center;
+    font-size:20px;
+    color:white;
+}
+
+    nav{
+
+        float: left;
+        width: 30%;
+        height: 300px;
+        background: rgb(255, 255, 255) ;
+        padding: 20px;}
+   
+.sidebar{
+    position: fixed;
+    width: 300px;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.sidebar .text{
+    color: aliceblue;
+    font-size: 25px;
+    width: 25px;
+    font-weight: 600;
+    line-height: 65px;
+    text-align: center;
+    background: #1d1c1c;
+    letter-spacing: 1px;
+
+}
+
+nav ul{
+    background: #131212;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+
+}
+
+nav ul li{
+    line-height: 60px;
+    border-bottom: 1px solid rgb(24, 24, 24);
+}
+
+nav ul li a{
+    position: relative;
+    color: blanchedalmond;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 40px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    border-left: 3px solid transparent;
+}
+
+nav ul li a:hover{
+    color: cyan;
+    background-color: rgb(48, 93, 99);
+    border-left-color: cyan;
+}
+
+nav ul uk{
+    position: static;
+    display: none;
+}
+
+nav ul ul li a{
+    line-height: 42px;
+    border-bottom: none;
+}
+
+nav ul ul li a{
+    font-size: 17px;
+    padding-left:80px;
+}
+
+nav ul ul li a span{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+}
+
+footer p{
+    background-color: #131212;
+    padding: 10px;
+    text-align:center;
+    color: white;
+    margin-top: -5px;
+    
+}
+
+.laporan{
+    background-color: #131212;
+}
+
+h4 {
+    box-sizing: border-box;
+    border:2px solid rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: 15px;
+
+}
+
+h5 {
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: larger;
+}
+
+p{
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+
+.banner-text{
+    position: absolute;
+    top: 0;
+    color: #fff;
+    padding: 50px;
+    left: 365px;
+    color: black;
+    bottom: 30px;
+    margin-top: 90px;
+}
+h1{
+    
+    margin-top: -15px;
+
+}
